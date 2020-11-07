@@ -1,0 +1,312 @@
+/* Mobile Portrait View */
+@media screen and (max-width:767px) {
+.container, .header-top, .header-inner{ width:auto; padding:0 20px;}
+.head-top-left, .head-top-right { float:none; width:auto; text-align:center;}
+.head-top-left span { display:block; margin-right:0; width:100%;}
+.header{ position:relative; padding-bottom:0; background-color:#000000 !important}
+.appointment { float:none;}
+.header-inner { text-align:center; position:relative;}
+.logo{ width:auto; float:none; text-align:center; padding-left:0px;}
+.header-right { float:none; width:auto; padding-top:0; text-align:center; padding-bottom:10px;}
+.sitenav { float:none;}
+
+/*slider css*/
+.nivo-controlNav, .nivo-directionNav{ display:none !important;}
+#slider .nivo-caption{ width:95%; left:0; right:0; bottom:45%; text-align:center; margin:0 auto; padding:10px;}
+#slider .nivo-caption p{ display:none;}
+#slider .nivo-caption h2{ font-size:22px; line-height:25px; margin-bottom:0; padding:0;}
+#slider .nivo-caption a.button { display:none;}
+h2.section_title{ font-size:30px !important; width:100%;}
+.entry-container { width:95%;}
+.innerbanner h1.innerpage-title { font-size:25px;}
+.breadcrumb { display:none;}
+.features { margin-bottom:0;}
+.features-box { width:auto; float:none; margin:0 0 50px 0; padding:0;}
+.class-box { width:auto; float:none; margin-right:0;}
+.class-box:hover, .price-box:hover { transform:none; transition:none;}
+.event-left, .event-studio { width:auto; float:none;}
+.eventdesc, .eventthumb, .event-box-odd .eventthumb, .event-box-odd .eventdesc { float:none; width:auto;}
+.register h2 { font-size:45px;}
+.register h3 { font-size:25px;}
+.counter-box { float:none; width:auto; border-right:none; margin-bottom:30px;}
+.counter-box#last { border-right:none;}
+.news-box { float:none; width:auto; margin-right:0;}
+.news-box .newsdesc{ padding:20px 15px;}
+.blog-post-repeat, .blog-post-repeat-full { width:auto; float:none; margin-right:0;}
+.blog-post-repeat .post-content, .blog-post-repeat-full .post-content { width:auto; float:none; padding:20px 0 0;}
+.teammember-list { float:none; width:auto; margin-right:0;}
+.special-left, .special-right { float:none; width:auto; text-align:center;}
+.special-left h2 { font-size:40px;}
+.special-left h3 { font-size:24px;}
+.special-right .special-form input[type="email"] { width:47%; height:15px;}
+.special-right .special-form input[type="submit"] {padding-left:15px; padding-right:15px; height:49px;}
+.video-add h2 { font-size:35px;}
+.video-frame { width:auto;}
+.price-plan h2 { font-size:35px;}
+.price-box { width:auto; float:none; margin-right:0;}
+.clientsay #clienttestiminials .item .tmdesc { width:auto;}
+#clienttestiminials .item .tmdesc::before, #clienttestiminials .item .tmdesc::after { display:none;}
+.woocommerce ul.products[class*="columns-"] li.product, .woocommerce-page ul.products[class*="columns-"] li.product { float:none; width:auto; margin-right:0;}
+.woocommerce ul.products[class*="columns-"] li.product:nth-child(2n), .woocommerce-page ul.products[class*="columns-"] li.product:nth-child(2n) { float:none;}
+.photobooth #mixitup .mix { width:100%; margin-right:0; margin-left:0; margin-bottom:5px;}
+.photobooth #mixitup .mix h3 { font-size:18px;}
+.holderwrap .fa { font-size:1.2em;}
+.contact-inner { width:95%;}
+.contact_left, .contact_right { float:none; width:auto;}
+.contact-box .contact-icon { margin:0 auto 20px; float:none;}
+.contact-desc { float:none; width:auto; text-align:center;}
+.contact-desc h4::after { left:0; right:0;}
+.contact_right h2 { text-align:center;}
+.contact_right h2::after { right:0; margin:0 auto;}
+
+/*coloumn css*/ 
+.one_half, .one_third, .two_third, .one_fourth, .three_fourth, .one_fifth, .four_fifth, .services-col, .services-wrap .one_third, #wrapperthree .one_half{float:none !important; width:100% !important; margin:0 0 30px !important;}
+.innerbanner{ height:auto;}
+
+/*Extra css */
+.fourcol .entry{ width:auto !important;}
+.tabs-wrapper ul.tabs li a{ padding:10px 14px}
+.cols-3 .social-icons a{ display:inline-block; width:35px; height:35px; line-height:35px;}
+
+/*sidebar css*/
+#sidebar{ width:100%; float:none;}
+.sidebar-left{ float:none !important; width:100%;}
+.flotRight{ float:none !important;}
+#sidebar #contactform_main input[type=text], #sidebar #contactform_main input[type=email], #sidebar #contactform_main input[type=tel],#sidebar #contactform_main input[type=url], #sidebar #contactform_main textarea{width:85%; }
+#sidebar .search-form input.search-submit, #sidebar .search-form input.search-field { margin-top:20px;}
+.testimonials-wrap h2.section_title{ margin-bottom:10px; font-size:20px;}
+.testimonials-wrap .owl-prev{ right:11%;}
+
+/*footer css */
+.cols-3 ul li { padding-right:0px; margin-right:0;}
+.cols-3{ margin:7% 0 7% 0; width:100%;}
+.copyright-inner { width:95%;}
+.copyright-txt { margin-bottom:20px;}
+.copyright-txt, .designby { text-align:center; float:none; display:block; width:auto;}
+.copyright-inner .social-icons { float:none; width:auto; margin-bottom:20px;}
+.copyright-menu ul li { float:none;}
+
+/* --------- Pages ------- */
+.content-area{ width:auto; margin:0; padding:20px;}
+.site-main{ width:auto; margin:0; padding:0; float:none;}
+#contactform_main input[type="text"], #contactform_main input[type="email"], #contactform_main input[type="tel"], #contactform_main input[type="url"], #contactform_main textarea{width:90%;}
+/*custom css*/
+.searchbox{ width:100%; padding-left:0;}
+.item{padding-left:0; width:auto;}
+ol.nav-numbers{ display:none;}
+#testimonials ul li .tm_description p{ text-align:left;}
+#back-top { right:5px; z-index:99;}
+}
+
+@media screen and (min-width: 480px) {
+.special-right .special-form input[type="email"] { width:63%;}
+}
+
+@media screen and (min-width:600px) and (max-width: 960px) {
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product { margin-right:36px;}
+.woocommerce ul.products li.product.last, .woocommerce-page ul.products li.product.last { margin-right:0;}
+}
+
+@media screen and (min-width:411px) and (max-width: 823px) {
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product { margin-right:28px;}
+.woocommerce ul.products li.product.last, .woocommerce-page ul.products li.product.last { margin-right:0;}
+}
+
+@media screen and (min-width:300px) and (max-width: 480px){
+.say_thumb{ float:none; position:inherit; left:0; display:table; margin:0 auto; width:auto;}
+.blog-post-repeat .post-thumb img{ float:none; margin-right:0; width:100%; height:100%;}
+.slider-main{ min-height:110px; height:auto;}
+.nivo-directionNav a{ top:40%; width:40px; height:40px;}
+a.nivo-prevNav{ left:0; background-position:8px 10px !important;}
+a.nivo-nextNav { right:0; background-position:8px 10px !important;}
+.fivecol .entry{ width:auto !important}
+}
+@media screen and (min-width:481px) and (max-width: 767px){
+.container, .content-area{ width:400px; margin:0 auto;}
+.slider-main{ height:auto; min-height:200px;}
+.nivo-caption{ left:12%;}
+}
+@media screen and (min-width:420px) and (max-width: 480px){
+.nivo-caption h2{ font-size:26px !important; line-height:32px !important;}
+.fourcol .entry{ left:6% !important;}
+}
+
+/* Mobile Landscape View */
+@media screen and (min-width:481px) and (max-width: 767px){	
+/*slider css*/
+.nivo-caption{ width:75%; left:13%; bottom:35% !important;}
+.nivo-caption h2{ font-size:20px !important; line-height:30px !important; margin-bottom:10px !important; } 
+/*.nivo-caption, .nivo-controlNav{ display:block !important;}*/
+h2.section_title{font-size:30px !important}	
+}
+
+@media screen and (min-width:481px) and (max-width: 615px){
+.nivo-caption{ width:70%; bottom:10%; left:15%;}
+.nivo-caption h2{ font-size:24px !important;}
+}
+
+/* Tablet View */
+@media screen and (max-width:1169px) and (min-width:768px) { 
+.container { width:auto; padding:0 20px;}
+.boxlayout{ width:auto; margin:0 20px; box-sizing:border-box;}
+.content-area{ width:auto; margin:0; padding:20px 20px;}
+.testimonials-wrap .owl-prev{ right:4.5%;}
+.cols-3 h5{ font-size:16px !important;}
+#sidebar{ width:30%;}
+.site-main{ width:65%;}
+.slider-main{ min-height:260px; height:auto;}
+.innerbanner{ height:auto;}
+/*custom  css*/
+.BlogPost{ min-height:250px;}
+.recent-post h6{ padding-top:7px;}
+ol.nav-numbers{ bottom:10%;}
+.sidebar-left{ float:left !important; width:30%;}
+.sidebar-left #sidebar{ width:100%;}
+}
+
+@media screen and (min-width:768px) and (max-width: 980px){
+.header{ padding:0; position:relative; background-color:#000000 !important;}
+.head-top-left span{ margin-right:15px;}
+.appointment { float:none;}
+.header-inner { text-align:center; width:95%; padding:0px 20px 15px; position:relative;}
+.logo{ width:auto; float:none; text-align:center;}
+.sitenav { float:none;}
+.header-right { float:none; width:auto; padding-top:0; padding-bottom:0;}
+.nivo-caption{ bottom:21%; padding:15px 35px 15px; width:55%;}
+.nivo-controlNav { width:43%; bottom:10%;}
+#slider .nivo-caption h2{ font-size:35px; line-height:35px; padding:0;}
+.nivoSlider .nivo-caption p { font-size:15px; width:auto; margin-bottom:25px;}
+.nivo-caption a.button { margin:10px 0 0 0px;}
+h2.section_title { margin-bottom:20px;}
+.breadcrumb { padding:5px 0;}
+.features-box { padding-left:0; padding-right:0; margin-bottom:20px; margin-right:36px;}
+.about { margin-bottom:0;}
+.about-right-box .about-right-content h4, .about-left-box .about-left-content h4 { font-size:20px;}
+.about-left-content, .about-right-content { width:62%;}
+.class-box { width:19%; margin-right:18px; padding-left:15px; padding-right:15px;}
+.classes .class-box h4 { font-size:18px;}
+.classdesc .morebutton { padding-right:30px; padding-left:30px;}
+.event-left { float:none; width:auto;}
+.event-studio { float:none; width:auto;}
+.event-box-odd .eventdesc { padding:71px 0;}
+.register h3 { font-size:30px;}
+.counter-box { width:24.8%;}
+.counting .counter-box span { font-size:17px;}
+.news-box { width:31%; margin-right:25px;}
+.news-box .newsdesc { padding:15px 10px;}
+.fourcolumn-news .news-box .newsdesc h3 { font-size:20px;}
+.news-box .news-thumb figcaption { font-size:12px;}
+.blog-post-repeat { width:48%; margin-right:18px;}
+.blog-post-repeat .post-thumb figcaption, .blog-post-repeat-full .post-thumb figcaption { font-size:12px;}
+.blog-post-repeat-full { margin-right:25px;}
+.teammember-list { padding:0; width:22%; margin-right:29px;}
+.teammember-list .thumnailbx span { width:auto;}
+.special-left h2 { font-size:40px;}
+.special-left h3 { font-size:25px;}
+.special-right { width:55%;}
+.special-right .special-form input[type="email"] { width:50%;}
+.price-box { width:19%; margin-right:18px; padding-left:15px; padding-right:15px;}
+.price-plan h3 { font-size:20px;}
+.clientsay #clienttestiminials .item .tmdesc { width:60%; padding:10%;}
+.woocommerce ul.products.columns-3 li.product, .woocommerce-page ul.products.columns-3 li.product { margin-right:0;}
+.woocommerce ul.products li.product .button { margin-top:0;}
+#footer-wrapper { font-size:12px; line-height:24px;}
+.cols-3 { width:27%; margin-right:19px;}
+.contactdetail { margin-top:20px;}
+.contactdetail .fa { margin-right:7px;}
+.cols-3 ul { padding-top:0;}
+.cols-3 ul li a { font-size:12px; line-height:18px;}
+.widget-column-2, .widget-column-3 { width:19%;}
+.widget-column-4 { margin-right:0;}
+.widget-column-4 #gallery-1 .gallery-item { margin-top:0;}
+.cols-3 .social-icons a { width:30px; height:30px; line-height:30px; margin-right:5px; display:inline-block;}
+.copyright-wrapper { font-size:12px;}
+.copyright-inner { width:95%; padding:30px 0;}
+.copyright-txt, .designby { width:auto; display:inline-block; margin:5px 0;}
+.fourcol .entry{ width:243px !important;}
+.portfolio #mixitup .mix { width:30.5%;}
+.contact_left { width:45%;}
+.contact-desc { width:75%;}
+.contact_right { width:50%;}
+#contactform_main input[type="text"], #contactform_main input[type="email"], #contactform_main input[type="tel"], #contactform_main input[type="url"]{width:90%; float:none; margin-right:0;}
+#contactform_main textarea { width:90%;}
+.contact-sidebar { width:35%;}
+.contact-banner { margin:0 auto; width:100%;}
+.contact-inner { width:95%; top:30%;}
+.contact-banner .breadcrumb { bottom:38%;}
+}
+
+@media screen and (max-width:1169px) and (min-width:980px) { 
+html{overflow-x:hidden; }
+.entry-container { width:95%;}
+.header-inner, .header-top { width:auto; padding:0 20px;}
+.logo { padding-left:0;}
+.header-right { width:70%;}
+.appointment a.button { padding-left:20px; padding-right:20px;}
+.sitenav ul li a { padding-right:10px; padding-left:10px;}
+#slider .nivo-caption{ bottom:15%;}
+.nivo-controlNav { bottom:8%;}
+#slider .nivo-caption h2 { font-size:40px;}
+#slider .nivo-caption p { font-size:15px; line-height:24px; margin-bottom:25px;}
+.nivo-caption a.button { margin-top:20px;}
+.innerbanner{ height:400px;}
+h1.innerpage-title { margin-top:15%;}
+.breadcrumb { margin-top:1.5%;}
+.features-box { margin-right:11px;}
+.class-box { padding-left:24px; padding-right:24px;}
+.eventdesc { padding:23px 0; height:222px;}
+.eventdesc img, .event-box-odd .eventdesc { margin-bottom:0;}
+.eventdesc h3, .event-box-odd .eventdesc h3 { font-size:20px; margin-bottom:5px;}
+.eventdesc span, .event-box-odd .eventdesc span { margin-bottom:8px;}
+.event-box-odd .eventdesc { padding:16px 0; height:236px;}
+.studio-content { padding:5% 4%;}
+.news-box { margin-right:34px;}
+.news-box .newsdesc { padding-left:20px; padding-right:20px;}
+.teammember-list { margin-right:17px;}
+.teammember-list .thumnailbx span { width:auto;}
+.special-right .special-form input[type="email"] { width:59%;}
+.price-box { margin-right:25px;}
+.woocommerce ul.products li.product .button { margin-top:0;}
+.fourcol .entry{ width:337px !important}
+.footer-inner { width:95%;}
+.cols-3 { width:23%; margin-right:26px;}
+.contactdetail .fa { margin-right:10px;}
+.cols-3.widget-column-4 { margin-right:0;}
+.cols-3 .social-icons a { width:35px; height:35px; line-height:35px;}
+.copyright-inner { width:95%; padding:30px 0;}
+#contactform_main input[type="text"], #contactform_main input[type="email"], #contactform_main input[type="tel"], #contactform_main input[type="url"] { padding:12px 14px; width:42%;}
+#contactform_main textarea { width:91%;}
+.blog-post-repeat { margin-right:25px;}
+.blog-post-repeat-full { margin-right:34px;}
+.portfolio #mixitup .mix { width:31.3%;}
+.woocommerce ul.products.columns-3 li.product, .woocommerce-page ul.products.columns-3 li.product { margin-right:21px;}
+.woocommerce ul.products.columns-3 li.product.last, .woocommerce-page ul.products.columns-3 li.product.last { margin-right:0;}
+.contact-banner { margin:0 auto; width:100%; height:400px;}
+.contact-inner { width:95%;}
+}
+
+@media screen and (max-width: 980px){	
+section{ padding:50px 0;}
+.toggleMenu{display: block;}
+.sitenav{float:none; margin:0; top:0; position:relative; overflow-x:hidden; width:100%;}
+.sitenav ul{color:#ffffff; font-size:12px !important; width:100%; float:none; margin:0; background-color:#333333; overflow:hidden;}
+.sitenav ul li{ display:block; float:none; text-align:left;}
+.sitenav ul li a{ display:block; text-align:left; padding:5px 15px; color:#ffffff !important; margin:0; font-weight:normal;}
+.sitenav ul li a:hover{color:#ffa200 !important; background:none;}
+.sitenav ul li ul, .sitenav ul li ul ul{ display:block; padding:0;}
+.sitenav ul li:hover ul li ul { display:block;}
+.sitenav ul li ul li a:before{content:"\00BB \00a0"; top:0px; left:0; background:none; font-size:1.4em;}
+.sitenav ul li ul li a { padding:5px 10px 5px 15px; padding-right:10px;}
+.sitenav ul li ul li{ border-bottom:1px solid transparent; border:none;}
+.sitenav ul li ul li ul li a{padding-left:30px;}
+.sitenav ul li ul li ul li ul li a{padding-left:40px;}
+.sitenav ul li:hover > ul{ width:auto; display:block; position: relative; animation:none; background:none !important; padding:0;}
+.sitenav ul li:hover ul li:hover > ul {width: auto;
+left: 0;
+display: block;
+position: relative; animation:none;}
+.sitenav ul li a:before { standardion:none !important; position:relative;}
+.sitenav ul li a:hover, .sitenav ul li.current_page_item a, .sitenav ul li.menu-item-has-children:hover { background:none !important;}
+.logo img{ height:auto;}
+.innerbanner{ height:250px;}
+}
